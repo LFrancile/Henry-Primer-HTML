@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi Primer Sitio Web</title>
+        <title>El Traspié del Cuarto Menguante</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
     </head>
-    <body>
+    <body class="fondo">
         <main>
             <section>
-        <h1>Las dificultades de conseguir alquiler</h1>
+        <h1 class="titulo-color">Las dificultades de conseguir alquiler</h1>
         <article>
         <p>Según recientes estadísticas, cada vez son menos los jóvenes que alquilan.</p>
             <p>¿Se debe esto a una decisión en el incosciente colectivo, o es que la baja salarial, la inflación, la especulación financiera y la rotura de la ley de contratos juega un papel clave en cómo vivir?</p>
         </article>
             </section>
-    <img src="./jovenes-alquiler.jpg" />
+    <img src="./jovenes-alquiler.jpg" id="imagen-jovenes">
     <div>
         <section>
         <h2>¿Cuáles son los factores claves?</h2>
-    <ul>
+    <ul class="lista">
         <li>La baja salarial</li>
         <li>La inflación</li>
         <li>La especulación financiera</li>
@@ -28,21 +27,29 @@
         </section>
     </div>
     <div>
-    <form>
+    <form id="formulario">
+        <div>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required/>
+        </div>
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required/>
+        <div>
         <label for="mensaje">Contanos cómo te las rebuscas con el alquiler:</label>
         <input type="text" name="mensaje"/>
+        </div>
         </label>
+        <div class="checkbox">
+            <input type="checkbox" id="newsletter" name="newsletter" />
+            <label for="newsletter">Quiero recibir novedades</label>
+        </div>
         <button type="submit">ENVIAR</button>
     </form>
     </div>
 </main>
     <footer>
-        <p>© leodefrans todos los derechos reservados</p>
-        <span>Nos vemos del otro lado</span>
+        <p class="footer">© leodefrans todos los derechos reservados</p>
+        <span class="footer">Nos vemos del otro lado</span>
     </footer>
 </body>
 </html>

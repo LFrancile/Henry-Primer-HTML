@@ -1,0 +1,79 @@
+.fondo {
+    background-color: lightblue;
+    background: linear-gradient(to right, #e0f7fa, #d0baef, #d7d3ff);
+    NObackground: conic-gradient(from 0deg, #ff7e5f, #feb47b, #ff7e5f);
+    NObackground: linear-gradient(to bottom, rgba(255, 126, 95, 0.8), transparent);
+
+
+}
+.titulo-color {
+    text-transform: uppercase;
+    font-size: 60px;
+    color:rgb(156, 117, 0);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 246, 174, 0.5);
+    font-family: "Impact";
+    font-weight: lighter;
+    scroll-margin-block: 100px;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  line-break: loose;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+    padding: 20px;
+}
+#imagen-jovenes {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2 {
+    font-size:2em;
+    margin:1em;
+    text-align: center;
+
+    ;
+}
+.lista {
+    list-style-type: upper-roman;
+    list-style-position:inside;
+    padding-left: 20px;
+    margin: 20px 0;
+    box-decoration-break: clone;
+    width: 60%;
+}
+p {
+    font-size: 1.2em;
+    font-display:block
+    line-height: 1.6;
+    margin-block-end: 20PX;
+    margin-block-start: 20px;
+    color: #313131;
+}
+#formulario {
+    background-color: antiquewhite;
+    background: linear-gradient(to right, #feffc8, #ffd1d1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black 20%
+    width: 60%;
+
+}
+.footer {
+    text-align:left;
+    text-shadow: color(from color srgb 69 58 75);
+    font-family: "Segoe UI", sans-serif;
+    font-size: 0.8em;
+    color:#3d234b;
+    margin-top: 20px;
+    color-interpolation-filters: linearRGB;
+}
